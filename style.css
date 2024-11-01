@@ -1,0 +1,186 @@
+.ts-row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ts-row.uuid{
+	font-weight: bold;
+}
+.ts-row.uuid input{
+	width: 25em;
+}
+.ts-container{
+	/*font-size: 10px;*/
+
+}
+.ts-widget-content-wrapper table,
+.ts-widget-content-wrapper td,
+.ts-widget-content-wrapper tr,
+.ts-widget-content-wrapper th{
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.ts-container ul,
+.ts-container ul li{
+	padding: 0;
+	margin: 0;
+}
+.ts-container.horizontal{
+	padding-top: 1em;
+}
+
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 100%;
+	
+}
+
+
+.ts-table,
+.ts-table tr,
+.ts-table td{
+	border: none;
+	border-collapse: collapse;
+}
+.ts-avatar img{
+	height: 4.8em;
+}
+.ts_fb_icon{
+	height: 1em;
+}
+.vertical.ts-container,
+.vertical .ts-viewport{
+	height: auto;
+}
+.vertical .simply-scroll .simply-scroll-clip,
+.vertical .simply-scroll{
+	height: 200px;
+}
+.vertical .simply-scroll .simply-scroll-list li{
+	height: auto;
+	margin-bottom: 2em;
+}
+.vertical .ts-avatar img{
+	float: left;
+	margin-right: .5em;
+}
+.vertical .ts-tweet-author{
+	float: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+.vertical .ts-tweet-content{
+	font-size: 1.2em;
+}
+.vertical .ts-tweet-date{
+	font-size: 1em;
+}
+
+.horizontal .ts-viewport{
+	height: 5em !important;
+}
+
+.horizontal .simply-scroll .simply-scroll-clip,
+.horizontal .simply-scroll,
+.horizontal .simply-scroll .simply-scroll-list li{
+	height: 5em;
+	float: left; /* Horizontal scroll only */
+}
+.horizontal .simply-scroll .simply-scroll-list li{
+	margin-left: 5em;
+}
+.horizontal .ts-tweet-author{
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	
+}
+.horizontal .ts-avatar{
+	float: left;
+	margin-right: .5em;
+}
+.horizontal .ts-tweet-content{
+	font-size: 1.3em;
+	line-height: 1.55em;
+	white-space: nowrap;
+}
+.horizontal .ts-tweet-date{
+	font-size: 1em;
+	line-height: 1.4em;
+	white-space: nowrap;
+}
+.horizontal .ts-content-right{
+	float: left;
+}
+
+
+.dark .ts-tweet-date a,
+.dark .ts-tweet-content a,
+.dark .ts-tweet-author,
+.dark .ts-tweet-author a{
+	color: #999999;	
+}
+.dark .ts-tweet-content{
+	color: #111111;
+}
+
+.light .ts-tweet-date a,
+.light .ts-tweet-content a,
+.light .ts-tweet-author,
+.light .ts-tweet-author a{
+	color: #dddddd;	
+}
+.light .ts-tweet-content{
+	color: #FFFFFF;
+}
+
+
+.simply-scroll-list li img.ts_fb_icon{
+	display: inline;
+	width: auto;
+	vertical-align: -0.15em;
+}
